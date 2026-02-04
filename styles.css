@@ -230,19 +230,20 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .photo-placeholder:nth-child(1),
+
     .photo-placeholder:nth-child(3) {
         height: 400px;
         background-position: 60% 40%;
     }
+    
     .photo-placeholder:nth-child(1){
-        background-image: url(img/6.jpg);
+        height: 400px;
         animation: fadeIn 1.2s ease-out forwards;
         animation-delay: 0.5s;
         opacity: 0;
+        background-position: 60% 25% !important;
     }
     .photo-placeholder:nth-child(3){
-        background-image: url(img/3.jpg);
         animation: fadeIn 1.2s ease-out forwards;
         animation-delay: 1s;
         opacity: 0;
@@ -250,7 +251,6 @@ body {
     }
     .photo-placeholder:nth-child(2) {
         height: 520px;
-        background-image: url(img/2.jpg);
         animation: fadeIn 1.2s ease-out forwards;
         animation-delay: 1.5s;
         opacity: 0;
@@ -344,7 +344,7 @@ body {
         justify-content: center;
     }
     .save-date-photo {
-        background-image: url(img/May6.jpeg);
+        background-image: url(img/May3.jpeg);
         background-size: cover;
         background-position: center top !important;
         background-repeat: no-repeat;
@@ -1109,6 +1109,13 @@ body {
     color: #666;
     line-height: 1.5;
     margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .gift-options {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
 
 .dress-code-text:nth-of-type(1) {
