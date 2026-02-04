@@ -1120,12 +1120,6 @@ body {
     .clabe-container {
         flex-direction: column !important;
         gap: 0.8rem;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .account-info {
-        margin: 0;
     }
     
     .clabe-container .copy-btn {
@@ -1158,7 +1152,14 @@ body {
     margin-bottom: 0.5rem;
 }
 
-/* --- Columna Derecha (Regalo y Botón de Copiar) --- */
+/* --- Estilos para transferencia bancaria --- */
+.gift-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .clabe-container {
     display: flex;
     flex-direction: row;
@@ -1483,6 +1484,7 @@ body {
         }
         .details-content {
             flex-direction: column; /* Las columnas se apilan una sobre otra */
+            gap: 1rem;
         }
     
         .details-column {
