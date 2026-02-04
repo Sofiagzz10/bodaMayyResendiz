@@ -1118,8 +1118,10 @@ body {
     }
     
     .clabe-container {
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 0.8rem;
+        align-items: center;
+        justify-content: center;
     }
     
     .account-info {
