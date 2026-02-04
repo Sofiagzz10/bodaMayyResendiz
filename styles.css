@@ -1116,6 +1116,18 @@ body {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    
+    .clabe-container {
+        flex-direction: column;
+    }
+    
+    .gift-option {
+        margin-bottom: 1.5rem;
+    }
+    
+    .carousel-item {
+        background-position: center !important;
+    }
 }
 
 .dress-code-text:nth-of-type(1) {
