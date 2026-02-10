@@ -26,7 +26,7 @@
                 const event = {
                     title: 'Boda de Mayté y Daniel',
                     start: '2026-04-10T18:30:00',
-                    end: '2026-04-10T02:00:00',
+                    end: '2026-04-10T00:00:00',
                     location: 'San Roberto 152, El Barrial, 67303 Santiago, N.L',
                     description: 'Nos complace invitarte a compartir con nosotros el comienzo de nuestra vida juntos y la celebración de nuestro amor.'
                 };
